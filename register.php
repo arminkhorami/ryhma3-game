@@ -137,10 +137,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <link rel="stylesheet" href="main.css">
   <link rel="shortcut icon" href="stadin.png" type="image/x-icon">
   <script defer src="script.js"></script>
+  <style>
+    .container {
+  margin-top: -100px;
+
+}
+h3 {
+  margin-top: 10px;
+
+}
+  </style>
 </head>
 
 <body>
 <center > <img class="mage" src="stadin.png"  alt="stadin"></center>
+<center><h3>Tervetuloa ryhmä3 peliprojektiin</h3></center>
   <div class="container">
     <div class="row min-vh-100 justify-content-center align-items-center">
       <div class="col-lg-5">
